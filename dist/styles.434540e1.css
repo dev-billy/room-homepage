@@ -1,5 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap");
 nav {
   display: none;
+}
+
+#manufacture-section, #available-section {
+  display: none;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-size: 12px;
+  color: #a1a1a1;
+  line-height: 20px;
+}
+
+.text {
+  padding: 2em;
+}
+
+.img-container {
+  height: 50vh;
+}
+.img-container .img {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shop-btn {
+  background: none;
+  border: none;
+  letter-spacing: 10px;
+  font-weight: 500;
+  margin-top: 20px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.intro .discover-img {
+  background-image: url("/mobile-image-hero-1.1f4f1365.jpg");
+}
+
+.about .about-img-container {
+  height: 30vh;
+}
+.about .about-dark-img {
+  background-image: url("/image-about-dark.c69f72ea.jpg");
+}
+.about .about-light-img {
+  background-image: url("/image-about-light.53cef9f2.jpg");
+}
+.about .about-text h3 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 0.8rem;
 }
 
 /*# sourceMappingURL=/styles.434540e1.css.map */

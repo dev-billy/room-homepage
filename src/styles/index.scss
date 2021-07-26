@@ -1,3 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap');
+
+$paragraphTextColor: hsl(0, 0%, 63%);
 nav{
     display: none;
 } 
+#manufacture-section,#available-section{
+    display: none;
+}
+
+body{
+    font-family: 'Spartan', sans-serif;
+    padding:0;
+    margin:0;
+}
+
+p{
+    font-size:12px;
+    color:$paragraphTextColor;
+    line-height: 20px;
+}
+
+.text{
+    padding:2em;
+}
+
+.img-container{
+    height:50vh;
+    .img{
+        height: 100%;
+        width:100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+.shop-btn{
+    background:none;
+    border:none;
+    letter-spacing: 10px;
+    font-weight: 500;
+    margin-top:20px;
+    color:hsl(0, 0%, 0%);
+    text-transform: uppercase;
+}
+
+.intro{
+    .discover-img{
+        background-image: url('../images/mobile-image-hero-1.jpg');
+    }
+}
+
+.about{
+    .about-img-container{
+        height:30vh;
+    }
+    .about-dark-img{
+        background-image: url('../images/image-about-dark.jpg');
+    }
+    .about-light-img{
+        background-image: url('../images/image-about-light.jpg');
+    }
+    .about-text{
+        h3{
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-size:.8rem;
+        }
+    }
+}
