@@ -68,3 +68,46 @@ p{
         }
     }
 }
+
+@media only  screen and (min-width: 768px){
+    .img-container{
+        height:60vh;
+    }
+    .about{
+        .about-img-container{
+            height:40vh;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px){
+  .intro,.about{
+      display: flex;
+  }
+  .img-container{
+      height: auto;
+      width:70%;
+      height:80vh;
+  }
+  .text{
+      width:30%;
+      padding:5em;
+  }
+  .intro{
+      .discover-img{
+          background-image: url('../images/desktop-image-hero-1.jpg');
+      }
+  }
+  .about{
+      
+      .about-img-container{
+          height: auto;
+      }
+      
+      .about-text{
+          padding:4em 3em;
+          width:70%;
+      }
+  }
+
+}

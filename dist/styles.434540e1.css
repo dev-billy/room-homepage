@@ -63,4 +63,42 @@ p {
   font-size: 0.8rem;
 }
 
+@media only screen and (min-width: 768px) {
+  .img-container {
+    height: 60vh;
+  }
+
+  .about .about-img-container {
+    height: 40vh;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .intro, .about {
+    display: flex;
+  }
+
+  .img-container {
+    height: auto;
+    width: 70%;
+    height: 80vh;
+  }
+
+  .text {
+    width: 30%;
+    padding: 5em;
+  }
+
+  .intro .discover-img {
+    background-image: url("/desktop-image-hero-1.cf4fd088.jpg");
+  }
+
+  .about .about-img-container {
+    height: auto;
+  }
+  .about .about-text {
+    padding: 4em 3em;
+    width: 70%;
+  }
+}
+
 /*# sourceMappingURL=/styles.434540e1.css.map */
