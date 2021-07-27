@@ -23,6 +23,26 @@ p {
   padding: 2em;
 }
 
+.controls {
+  background: black;
+  position: absolute;
+  width: fit-content;
+  float: right;
+  top: 40vh;
+  left: 100%;
+  transform: translateX(-100%);
+  padding: 1em 1em;
+  display: flex;
+  justify-content: space-between;
+}
+.controls button {
+  background: none;
+  border: none;
+}
+.controls .btn-separator {
+  width: 50px;
+}
+
 .img-container {
   height: 50vh;
 }
@@ -64,6 +84,14 @@ p {
 }
 
 @media only screen and (min-width: 768px) {
+  .intro .discover-img {
+    background-image: url("/desktop-image-hero-1.cf4fd088.jpg");
+  }
+
+  .controls {
+    top: 50vh;
+  }
+
   .img-container {
     height: 60vh;
   }
@@ -86,10 +114,6 @@ p {
   .text {
     width: 30%;
     padding: 5em;
-  }
-
-  .intro .discover-img {
-    background-image: url("/desktop-image-hero-1.cf4fd088.jpg");
   }
 
   .about .about-img-container {
