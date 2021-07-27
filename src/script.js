@@ -1,8 +1,9 @@
-const image1 = require('./images/desktop-image-hero-1.jpg')
-const image2 = require('./images/desktop-image-hero-2.jpg')
-const image3 = require('./images/desktop-image-hero-3.jpg')
-const closeIcon = require('./images/icon-close.svg')
-const hamIcon = require('./images/icon-hamburger.svg')
+import * as image1 from './images/desktop-image-hero-1.jpg'
+import * as image2 from './images/desktop-image-hero-2.jpg'
+import * as image3 from './images/desktop-image-hero-3.jpg'
+
+import * as closeIcon from './images/icon-close.svg'
+import * as hamIcon  from './images/icon-hamburger.svg'
 const data = [
     {
         backgroundImg: image1,

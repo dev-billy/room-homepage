@@ -18,3 +18,4 @@
 .prettierrc
 node_modules/
 dist/
+.cache/

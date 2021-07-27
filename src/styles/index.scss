@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap');
 
-$paragraphTextColor: hsl(0, 0%, 63%);
+$paragraphTextColor: rgb(161, 161, 161);
 nav{
     position: absolute;
     display:flex;
@@ -69,10 +69,10 @@ p{
         padding:1.3em 1.4em;
         background:none;
         border:none;
-        background:hsl(0%,0%,0%);
+        background:black;
     }
     button:hover{
-        background-color:hsl(0%,0%,27%);
+        background-color:rgb(171, 171, 171);
         cursor: pointer;
     }
     .btn-separator{
@@ -98,11 +98,11 @@ p{
     letter-spacing: 10px;
     font-weight: 500;
     margin-top:20px;
-    color:hsl(0, 0%, 0%);
+    color:black;
     text-transform: uppercase;
 }
 .shop-btn:hover{
-    color:hsl(0%,0%,63%);
+    color:rgb(161, 161, 161);
     cursor:pointer;
 }
 
