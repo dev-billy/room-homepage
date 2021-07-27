@@ -48,7 +48,7 @@ p{
     position:absolute;
     width:fit-content;
     float:right;
-    top:-18%;
+    top:-62px;
     left:100%;
     transform: translateX(-100%);
     //transform: translateY(-16%);
@@ -126,9 +126,7 @@ p{
             background-image: url('../images/desktop-image-hero-1.jpg');
         }
     }
-    .controls{
-        top:-25%;
-    }
+  
     .img-container{
         height:60vh;
     }

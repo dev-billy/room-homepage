@@ -48,7 +48,7 @@ p {
   position: absolute;
   width: fit-content;
   float: right;
-  top: -18%;
+  top: -62px;
   left: 100%;
   transform: translateX(-100%);
   display: flex;
@@ -118,10 +118,6 @@ p {
 @media only screen and (min-width: 768px) {
   .intro .discover-img {
     background-image: url("/desktop-image-hero-1.cf4fd088.jpg");
-  }
-
-  .controls {
-    top: -25%;
   }
 
   .img-container {
