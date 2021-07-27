@@ -122,6 +122,44 @@ p {
     display: flex;
   }
 
+  nav {
+    justify-content: space-evenly;
+    width: 40%;
+  }
+  nav .nav-btn {
+    display: none;
+  }
+  nav .nav-list {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 70%;
+  }
+  nav .nav-list li {
+    text-transform: lowercase;
+    border-bottom: solid 2px rgba(0, 0, 0, 0);
+    transition: border-bottom 1s;
+    transition-timing-function: cubic-bezier(0, 0.74, 0.12, 0.9);
+  }
+  nav .nav-list li:hover {
+    border-bottom: solid 2px white;
+    cursor: pointer;
+  }
+  nav .nav-end-blank {
+    display: none;
+  }
+
+  .intro-text {
+    position: relative;
+  }
+
+  .controls {
+    top: 71vh;
+    left: 0%;
+    transform: translateX(0%);
+  }
+
   .img-container {
     height: auto;
     width: 70%;
