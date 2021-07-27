@@ -91,6 +91,11 @@ p {
   text-transform: uppercase;
 }
 
+.shop-btn:hover {
+  color: #a1a1a1;
+  cursor: pointer;
+}
+
 .intro .discover-img {
   background-image: url("/mobile-image-hero-1.1f4f1365.jpg");
 }
