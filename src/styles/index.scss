@@ -4,8 +4,8 @@ $paragraphTextColor: hsl(0, 0%, 63%);
 nav{
     position: absolute;
     display:flex;
-    width: 90%;
-    padding:1em;
+    width: 100%;
+    transition:all 2s cubic-bezier(0.18, 0.89, 0.32, 1.28);
     align-items: center;
     justify-content: space-between;
     .nav-btn{
@@ -19,6 +19,17 @@ nav{
     }
     .nav-list{
         display: none;
+        padding:0;
+        color:black;
+          justify-content: space-evenly;
+          list-style-type: none;
+        width:80%;
+        li{
+            text-transform: lowercase;
+            border-bottom: solid 2px rgba(0, 0, 0, 0);
+            transition: border-bottom 1s;
+            transition-timing-function: cubic-bezier(0, 0.74, 0.12, 0.9);
+        }
     }
 } 
 #manufacture-section,#available-section{

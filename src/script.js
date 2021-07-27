@@ -1,6 +1,8 @@
 const image1 = require('./images/desktop-image-hero-1.jpg')
 const image2 = require('./images/desktop-image-hero-2.jpg')
 const image3 = require('./images/desktop-image-hero-3.jpg')
+const closeIcon = require('./images/icon-close.svg')
+const hamIcon = require('./images/icon-hamburger.svg')
 const data = [
     {
         backgroundImg: image1,
@@ -56,3 +58,27 @@ prevBtn.addEventListener('click',(e)=>{
     img.style.backgroundImage = `url(${data[current].backgroundImg})`
 
 });
+
+
+const menuBtn = document.getElementById('menu-btn');
+const nav = document.getElementsByTagName('nav')[0];
+const navList = document.getElementsByClassName('nav-list')[0];
+const nameLogo = document.getElementById('name-logo')
+
+nav.style.padding = '1em'
+menuBtn.addEventListener('click',()=>{
+    if(nameLogo.style.display === ''){
+        nav.style.backgroundColor = '#fff'
+        menuBtn.firstElementChild.src=closeIcon;
+        navList.style.display = 'flex'
+        nameLogo.style.display = 'none';
+        navList.style.listStyle = 'none';
+    }else{
+        nav.style.background = 'none'
+        menuBtn.firstElementChild.src=hamIcon;
+        navList.style.display = 'none'
+        
+        nameLogo.style.display = '';
+        navList.style.listStyle = 'none';
+    }
+})
