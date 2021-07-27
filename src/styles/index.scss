@@ -40,24 +40,32 @@ p{
 .text{
     padding:2em;
 }
-
+.intro-text{
+    position: relative;
+}
 .controls{
-    background:hsl(0%,0%,0%);
+    
     position:absolute;
     width:fit-content;
     float:right;
-    top:40vh;
+    top:-18%;
     left:100%;
     transform: translateX(-100%);
-    padding:1em 1em;
+    //transform: translateY(-16%);
     display: flex;
     justify-content: space-between;
     button{
+        padding:1.3em 1.4em;
         background:none;
         border:none;
+        background:hsl(0%,0%,0%);
+    }
+    button:hover{
+        background-color:hsl(0%,0%,27%);
+        cursor: pointer;
     }
     .btn-separator{
-        width:50px;
+        width:0px;
     }
 }
 
@@ -69,6 +77,8 @@ p{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        transition: background-image 2s;
+        transition-timing-function: cubic-bezier(0.25, 0.1, 0, 1.86)
     }
 }
 .shop-btn{
@@ -113,7 +123,7 @@ p{
         }
     }
     .controls{
-        top:50vh;
+        top:-25%;
     }
     .img-container{
         height:60vh;
@@ -158,13 +168,11 @@ p{
           
       }
   }
-  .intro-text{
-      position: relative;
-  }
   .controls{
-    top:71vh;
+    top:100%;
     left:0%;
     transform: translateX(0%);
+    transform: translateY(-100%);
     }
   .img-container{
       height: auto;
