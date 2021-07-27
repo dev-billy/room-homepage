@@ -2,7 +2,24 @@
 
 $paragraphTextColor: hsl(0, 0%, 63%);
 nav{
-    display: none;
+    position: absolute;
+    display:flex;
+    width: 90%;
+    padding:1em;
+    align-items: center;
+    justify-content: space-between;
+    .nav-btn{
+        background:none;
+        border:none;
+    }
+    h3{
+        color:white;
+        justify-self: center;
+        align-self: center;
+    }
+    .nav-list{
+        display: none;
+    }
 } 
 #manufacture-section,#available-section{
     display: none;
